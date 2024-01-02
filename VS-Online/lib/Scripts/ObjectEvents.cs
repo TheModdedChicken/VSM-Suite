@@ -9,7 +9,7 @@ using MelonLoader;
 using UnityEngine.Events;
 using Il2CppInterop.Runtime;
 
-namespace VSOnline.lib.Scripts
+namespace VSO.lib.Scripts
 {
 	[RegisterTypeInIl2Cpp]
 	public class ObjectEvents : MonoBehaviour

@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
+using UnityEngine.UI;
 
-namespace VSOnline.lib.Managers
+namespace VSOlib.Managers
 {
-    internal class LocaleManager
+    internal class ObjectManager
     {
+
     }
 }

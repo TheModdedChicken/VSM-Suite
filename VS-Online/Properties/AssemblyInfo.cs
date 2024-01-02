@@ -1,6 +1,6 @@
 using System.Runtime.InteropServices;
 using MelonLoader;
-using VSOnline;
+using VSO;
 
 // In SDK-style projects such as this one, several assembly attributes that were historically
 // defined in this file are now automatically added during build and populated with
@@ -20,5 +20,5 @@ using VSOnline;
 
 // Melon Loader
 
-[assembly: MelonInfo(typeof(VSOnline.Mod), "VS Online", "1.0.0", "TheModdedChicken")]
+[assembly: MelonInfo(typeof(VSO.Mod), "VS-Online", "1.0.0", "TheModdedChicken")]
 [assembly: MelonGame("poncle", "Vampire Survivors")]
