@@ -10,4 +10,4 @@ Listed below are the mods and plugins that make up this suite. Go [here](https:/
 A general utility and helper plugin for other mods.
 
 ## VS-Online (Mod)
-An online multiplayer mod which extends the base game LAN functionality, allowing for Steam friends to join.
+A multiplayer mod which extends the base game LAN functionality, allowing for true online multiplayer.
