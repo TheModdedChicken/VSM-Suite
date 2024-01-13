@@ -1,25 +1,25 @@
 ﻿using MelonLoader;
 using UnityEngine;
 using VSO.lib.Networking;
-using VSO.lib.UI;
+using VSO.lib.UI.Views;
 
 namespace VSO
 {
-	public class Mod : MelonMod
+    public class Mod : MelonMod
 	{
-		public Server? _server;
+		public Client? _client;
 
 		public override void OnInitializeMelon()
 		{
 			LoggerInstance.Msg("VSOnline has been initialized!");
-			_server = new GameObject().AddComponent<Server>();
+			_client = new GameObject("MainMenu").AddComponent<Client>();
 		}
 
 		public override void OnSceneWasInitialized(int buildIndex, string sceneName)
 		{
 			if (sceneName == "MainMenu")
 			{
-				Online.Initialize();
+				Online.InitializeMainMenu();
 			}
 		}
 	}

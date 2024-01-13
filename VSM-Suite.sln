@@ -5,7 +5,10 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VSM-Framework", "VSM-Framework\VSM-Framework.csproj", "{8D66F4B5-8AAA-4E70-9DBA-B6A513E4CA28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VS-Online", "VS-Online\VS-Online.csproj", "{C9E5EED5-F80C-4B8B-ACCA-110B27734187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VS-Online", "VS-Online\VS-Online.csproj", "{C9E5EED5-F80C-4B8B-ACCA-110B27734187}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8D66F4B5-8AAA-4E70-9DBA-B6A513E4CA28} = {8D66F4B5-8AAA-4E70-9DBA-B6A513E4CA28}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
